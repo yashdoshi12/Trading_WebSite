@@ -1,0 +1,775 @@
+/* --------------------------Google Fonts--------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+/* --------------------------Custom Cursor--------------------- */
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #ffffff; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #666;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #999; 
+  }
+  
+
+
+
+body, html{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+
+/* --------------------------Nav--------------------- */
+
+
+nav{
+    background-color: black;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0.5rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* --------------------------Nav2--------------------- */
+
+.nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav2 img{
+    width: 7rem;
+    margin-right: 5rem;
+}
+
+
+.search-container{
+    width: 430px;
+    display: block;
+  }
+  
+  input#search-bar {
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+  }
+  
+  input#search-bar:focus {
+    border: 1px solid #008ABF;
+    transition: 0.35s ease;
+    color: #008ABF;
+  }
+   
+
+
+.nav2 a{
+    text-decoration: none;
+    background-color: #00ac03;
+    border: none;
+    color: white;
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-left: 8rem;
+    padding: 10px;
+}
+
+
+/* --------------------------Container1--------------------- */
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 .intro{
+    position: relative;
+    height: 30rem;
+    width: 45rem;
+    text-shadow: 1px 2px 13px rgba(0, 0, 0, 0.2);
+    left: -2rem;
+    top: 4rem;
+}
+
+.container1 .intro span{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 3.5rem;
+    color: black;
+}
+
+.container1 .intro .green_text{
+    color: #00ac03;
+}
+
+.container1 .intro p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container1 .intro .get_started{
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #00ac03;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    top: 1.5rem;
+    margin-right: 3rem;
+    
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.container1 .intro .trial{
+    position: relative;
+    background-color: #90dfff;
+    padding: 10px;
+    text-decoration: none;
+    color: #00ac03;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    top: 1.5rem;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.container1 img{
+    position: relative;
+    width: 40rem;
+    right: -3rem;
+}
+
+.container1 .intro .details{
+    position: relative;
+    top: 3.5rem;
+    left: -6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 .intro .details span{
+    position: relative;
+    left: -0.5rem;
+    font-size: 1rem;
+    margin: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container1 .details img{
+    position: relative;
+    width: 20px;
+    left: -0.5rem;
+}
+
+
+/* --------------------------Container2--------------------- */
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 img{
+    position: relative;
+    width: 35rem;
+    left: -6rem;
+}
+
+.container2 .intro{
+    position: relative;
+    right: -5rem;
+    width: 40rem;
+    height: 30rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    color: black;
+    text-shadow: 1px 2px 13px rgba(0, 0, 0, 0.26);
+}
+
+.container2 .intro .green_text{
+    color: #00ac03;
+}
+
+.container2 .intro p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    text-shadow: none;
+}
+
+.container2 .intro a{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00ac03;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    top: 1.5rem;
+    margin-right: 3rem;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* --------------------------Container3--------------------- */
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.container3 img{
+    width: 30rem;
+}
+
+.container3 .intro{
+    position: relative;
+    left: -7rem;
+    top: 4rem;
+    width: 45rem;
+    height: 30rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8rem;
+    color: black;
+    text-shadow: 1px 2px 13px rgba(0, 0, 0, 0.26);
+}
+
+.container3 .intro .green_text{
+    color: #00ac03;
+}
+
+.container3 .intro p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    text-shadow: none;
+}
+
+.container3 .intro a{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00ac03;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    top: 1.5rem;
+    margin-right: 3rem;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* --------------------------Container4--------------------- */
+
+.container4{
+    position: relative;
+    top: 10rem;
+}
+
+.container4 .nav{
+    background-color: #42005a;
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+}
+
+.container4 .cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container4 .cards .card{
+    width: 30rem;
+    height: 20rem;
+    padding: 5px;
+    margin: 2px;
+    font-family: 'Montserrat', sans-serif;
+    border: 5px solid rgb(118, 118, 118);
+    border-radius: 20px;
+}
+
+.container4 .cards .card .title{
+    position: relative;
+    font-size: 20px;
+    left: 10px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.container4 .cards .card .live{
+    position: relative;
+    border: 3px solid rgb(112, 112, 112);
+    padding: 5px;
+    box-sizing: border-box;
+    width: 40px;
+    color: red;
+    left: 430px;
+    top: -47px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.container4 .cards .card .date{
+    position: relative;
+    font-size: 1rem;
+    top: -10px;
+    left: 10px;
+}
+
+.container4 .cards .card .time{
+    position: relative;
+    font-size: 1rem;
+    top: -41px;
+    left: 180px;
+}
+
+.container4 .cards .card p{
+    position: relative;
+    top: -30px;
+    left: 10px;
+}
+
+.container4 .cards .card .progress-container {
+    position: relative;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    left: 250px;
+    top: -20px;
+  }
+  
+  .container4 .cards .card progress {
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+  }
+  
+.container4 .cards .card .enrolled{
+    position: relative;
+    left: 350px;
+    top: -20px;
+    font-size: 1rem;
+}
+
+.container4 .cards .card a{
+    position: relative;
+    background-color: #3191ff;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0.7rem;
+    color: white;
+    text-decoration: none;
+    width: 70%; 
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 5px;
+    left: 50px;
+  }
+  
+
+  /* --------------------------Container5--------------------- */
+
+.container5{
+    margin-top: 300px;
+}
+
+.container5 .nav{
+    background-color: #42005a;
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+}
+
+.container5 p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container5 .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.container5 .intro img{
+    position: relative;
+    left: -230px;
+    height: 80vh;
+}
+
+.container5 .intro .list{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.container5 .intro .list a{
+    text-decoration: none;
+    background-color: black;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 20rem;
+    display: block;
+}
+
+
+  /* --------------------------Container6--------------------- */
+
+.container6{
+    margin-top: 30rem;
+}
+
+.container6 .box{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    height: 527.5px;
+    width: 1075.2px;
+    border-radius: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(107deg, rgba(2,0,36,1) 0%, rgba(207,207,255,1) 0%, rgba(66,57,255,1) 37%, rgba(171,0,255,1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .container6 .box .text{
+    position: relative;
+    top: -50px;
+  }
+
+.container6 .box .text ul{
+    line-height: 1.5;
+}
+
+.container6 .box .text a{
+    position: relative;
+    top: 20px;
+    left: 60px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    width: 20rem; 
+    display: block;
+}
+
+
+/* --------------------------Container7--------------------- */
+
+
+.container7{
+    background-color: #fafafa;
+    height: 80vh;
+}
+
+.container7 img{
+    height: 80vh;
+}
+
+.container7 .text{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    top: -500px;
+    left: 850px;
+    width: 50vw;
+}
+
+.container7 .text a{
+    position: relative;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    top: 30px;
+}
+
+
+
+
+/* --------------------------Container8--------------------- */
+
+
+
+.container8{
+    text-align: center;
+}
+
+.container8 span{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+}
+
+.container8 .green_text{
+    color: #00ac03;
+}
+
+.container8 .blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.container8 .block{
+    margin: 2rem;
+    width: 20vw;
+    height: 30vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container8 .blocks .block img{
+    background-color: #00ff04;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+
+
+/* --------------------------Container9--------------------- */
+
+
+
+
+.container9{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.container9 span{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+}
+
+.container9 .green_text{
+    color: #00ac03;
+}
+
+.container9 .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80vw;
+    margin:  auto;
+    margin-top: 40px;
+}
+
+.container9 .boxes .box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    margin: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container9 .boxes .box h1{
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    width: 70px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+/* --------------------------Container10--------------------- */
+
+
+.container10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #23007a;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+.container10 img{
+    width: 50vw;
+    margin-top: 5rem;
+}
+
+
+/* --------------------------Container11--------------------- */
+
+
+.container11{
+    text-align: center;
+}
+
+.container11 h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container11 .accordion{
+    width: 90vw;
+    margin: 5rem auto;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.container11  details {
+    padding: 0.75em;
+    margin: 0.5rem 0;
+    border-bottom: 1px solid #000;
+    text-align: left;
+  }
+  
+.container11  details:last-of-type {
+    border-bottom: none;
+  }
+  
+.container11  summary {
+    cursor: pointer;
+    padding: .75em 1em;
+    text-align: left;
+    font-weight: bolder;
+  }
+  
+.container11  details[open] summary {
+    background-color: #eee;
+    
+  }
+  
+.container11  summary:hover {
+    background-color: #eee;
+  }
+  
+
+
+  /* --------------------------Container12--------------------- */
+
+
+.container12{
+    display: flex;
+    flex-direction: row;
+}
+
+.container12 img{
+    height: 80px;
+    margin-left: 20vw;
+}
+
+.container12 .play_store{
+    margin-left: 40vw;
+}
+
+
+/* --------------------------Container13--------------------- */
+
+
+.container13{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container13 .links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.container13 .links a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+.container13 .links a:hover{
+    font-size: 1.6rem;
+}
+
+.container13 .links .button{
+    margin-top: 1rem;
+    padding: 2px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+.container13 .address{
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.container13 iframe{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: -100px;
+}
+
+
+/* --------------------------Container14--------------------- */
+
+
+.container14{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.container14 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
