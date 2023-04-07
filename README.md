@@ -8,7 +8,7 @@ This is a simple website made using,
 
 1. <b>`HTML`</b> 
 2. <b>`CSS`</b>
-3. <b>`JS`</b> Module
+3. <b>`JS`</b>
 
 <hr />
 <br />
