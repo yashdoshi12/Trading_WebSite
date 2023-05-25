@@ -1,6 +1,6 @@
 # :octocat: Trading Website
 
-I made this website in just 2 days. 
+I made this website in just 2 days. If you liked my skills, HIRE ME!
 
 <hr />
 
